@@ -8,7 +8,7 @@ They are intended to be a simple and straightforward journey through the fundame
 # Chapter 1: Basics of Neuron Networks
 
 * What is a Neural Network
-* Why do we care?
+* How does a Neuron Work?  How is a network trained?
 
 # Chapter 2: Linear Regression
  
