@@ -11,11 +11,6 @@ from matplotlib.ticker import LinearLocator, FormatStrFormatter
 
 def plot_quadratic(function, simple = False):
 
-    xs = np.arange(-10,11,1)
-    ys = np.arange(-10,11,1)
-
-    ys = xs **2 + ys **2
-
     fig = plt.figure()
     ax = fig.gca(projection='3d')
 
@@ -38,17 +33,7 @@ def plot_quadratic(function, simple = False):
 
     plt.show()
 
-    """
-    print (ys)
-
-
-    plt.plot(xs,ys)
-    plt.plot(xs, np.zeros(xs.shape[0]), color = 'red')
-    plt.show()
-    """
-
-
-def do_scikit_learn_regresssion(data, verbose = False):
+def do_scikit_learn_regression(data, verbose = False):
     
     """
     
